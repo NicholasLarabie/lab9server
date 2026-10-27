@@ -22,4 +22,4 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(PORT, "10.128.189.233", () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
